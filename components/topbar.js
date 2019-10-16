@@ -20,7 +20,7 @@ const TopBar = ({erase}) => {
                 <TopAppBar.Section align-start>
                     <TopAppBar.Icon onClick={openDrawer}>apps</TopAppBar.Icon>
                     <TopAppBar.Title>
-                    BTC TPA
+                    CryptoLocalPOS
                     </TopAppBar.Title>
                 </TopAppBar.Section>
                 </TopAppBar.Row>
