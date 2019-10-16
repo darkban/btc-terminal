@@ -32,7 +32,7 @@ const TopBar = ({erase}) => {
                 <Drawer.DrawerContent>
                     <Drawer.DrawerItem selected onClick={resetURL}>
                         <List.ItemGraphic>cancel</List.ItemGraphic>
-                        Reset BTCpay URL
+                        Resetta URL CryptoLocalPOS
                     </Drawer.DrawerItem>
                 </Drawer.DrawerContent>
             </Drawer>
