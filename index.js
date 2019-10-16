@@ -137,15 +137,15 @@ export default class App extends Component {
 					url={this.state.btcpayurl} />}
 				{clientConfirm && 
 					<Dialog class='mdc-dialog--open'>
-						<Dialog.Header>Confirm value</Dialog.Header>
+						<Dialog.Header>Riepilogo</Dialog.Header>
 						<Dialog.Body>
-							<TextField label="Add OrderID (optional)" dense value={this.state.orderId} onInput={e => this.setState({orderId: e.target.value})}/>
-							<h2>{`Pay €${sanitizedValue.toFixed(2)} with BTC`}</h2>
+							<TextField label="Aggiungi una nota (opzionale)" dense value={this.state.orderId} onInput={e => this.setState({orderId: e.target.value})}/>
+							<h2>{`PAGA €${sanitizedValue.toFixed(2)} in CRYPTO`}</h2>
 							<BTCPay value={sanitizedValue} url={this.state.btcpayurl} orderId={this.state.orderId} />
 						</Dialog.Body>
 						<Dialog.Footer>
-							<Dialog.FooterButton cancel={true} onClick={this.handleCancel}>Decline</Dialog.FooterButton>
-							<Dialog.FooterButton accept={true} onClick={this.openPayment}>Accept</Dialog.FooterButton>
+							<Dialog.FooterButton cancel={true} onClick={this.handleCancel}>ANNULLA</Dialog.FooterButton>
+							<Dialog.FooterButton accept={true} onClick={this.openPayment}>CONFERMA</Dialog.FooterButton>
 						</Dialog.Footer>
 					</Dialog>
 				}
