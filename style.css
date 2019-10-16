@@ -1,6 +1,6 @@
 :root{
-	--mdc-theme-primary: #329f80;
-	--mdc-theme-secondary: #2284A6;
+	--mdc-theme-primary: #ffd600;
+	--mdc-theme-secondary: #252525;
 }
 
 .mdc-drawer .mdc-list-item--activated{
