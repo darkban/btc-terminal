@@ -7,7 +7,7 @@
 	color: var(--mdc-theme-primary);
 }
 .mdc-drawer .mdc-list-item--activated .mdc-list-item__graphic{
-	color:var(--mdc-theme-primary);
+	color: #252525;
 }
 
 html, body {
