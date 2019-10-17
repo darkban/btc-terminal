@@ -124,12 +124,12 @@ html, body {
 	grid-template-columns: 1fr 1fr;
 	padding: 0 10px 10px 10px;
 	grid-gap: 10px;
-	background: red;
 }
 
 .buttons > button {
 	height: 100%;
 	min-height: 56px;
+	background: red;
 }
 
 .btn{
