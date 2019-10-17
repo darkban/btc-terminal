@@ -140,7 +140,7 @@ export default class App extends Component {
 						<Dialog.Header>Riepilogo</Dialog.Header>
 						<Dialog.Body>
 							<TextField label="Aggiungi una nota (opzionale)" dense value={this.state.orderId} onInput={e => this.setState({orderId: e.target.value})}/>
-							<h2>{`PAGA <span style="color: #ff0000;"> €${sanitizedValue.toFixed(2)} </span> IN CRYPTO`}</h2>
+							<h2>{`PAGA €${sanitizedValue.toFixed(2)} IN CRYPTO`}</h2>
 							<BTCPay value={sanitizedValue} url={this.state.btcpayurl} orderId={this.state.orderId} />
 						</Dialog.Body>
 						<Dialog.Footer>
