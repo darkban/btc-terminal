@@ -1,6 +1,6 @@
 {
   "name": "CryptoLocalPOS",
-  "short_name": "btc-terminal",
+  "short_name": "CRYPTO POS",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
@@ -12,5 +12,6 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ]
+  ],
+  "splash_pages": null
 }
