@@ -113,7 +113,6 @@ html, body {
 	min-height: 56px;
 	border-radius: 5px;
 	background: gainsboro;
-	color: #252525;
 }
 
 
@@ -133,7 +132,7 @@ html, body {
 	font-size: 20px;
 	border: none;
 	border-radius: 5px;
-	color: #fff;
+	color: #252525;
 	min-height: 56px;
 	min-width: 100px;
 }
