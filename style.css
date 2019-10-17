@@ -129,7 +129,6 @@ html, body {
 .buttons > button {
 	height: 100%;
 	min-height: 56px;
-	background: red;
 }
 
 .btn{
@@ -139,6 +138,7 @@ html, body {
 	color: #fff;
 	min-height: 56px;
 	min-width: 100px;
+	background: red;
 }
 
 .confirm{
