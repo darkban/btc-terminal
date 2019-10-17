@@ -10,7 +10,7 @@ const BoardingModal = ({open, change, click, url}) => {
               <TextField fullwidth type='url' placeholder="URL CryptoLocalPOS" onChange={change} value={url}/>             
             </Dialog.Body>
             <Dialog.Footer>
-                <Dialog.FooterButton accept={true} onClick={click}>Accept</Dialog.FooterButton>
+                <Dialog.FooterButton accept={true} onClick={click}>Installa</Dialog.FooterButton>
             </Dialog.Footer>
         </Dialog>
     )
